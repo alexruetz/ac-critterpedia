@@ -1,0 +1,730 @@
+{
+    "fish": [
+        {
+            "id": 1,
+            "name": "Bitterling",
+            "months_northern": 3079,
+            "months_southern": 496,
+            "time": "Ganztägig",
+            "location": "Fluss",
+            "size": "Winzig"
+        },
+        {
+            "id": 2,
+            "name": "Döbel",
+            "months_northern": 0,
+            "months_southern": 0,
+            "time": "9–16 Uhr",
+            "location": "Fluss",
+            "size": "Winzig"
+        },
+        {
+            "id": 3,
+            "name": "Karausche",
+            "months_northern": 0,
+            "months_southern": 0,
+            "time": "Ganztägig",
+            "location": "Fluss",
+            "size": "Klein"
+        },
+        {
+            "id": 4,
+            "name": "Hasel",
+            "months_northern": 0,
+            "months_southern": 0,
+            "time": "16–9 Uhr",
+            "location": "Fluss",
+            "size": "Mittel"
+        },
+        {
+            "id": 5,
+            "name": "Karpfen",
+            "months_northern": 0,
+            "months_southern": 0,
+            "time": "Ganztägig",
+            "location": "Teich",
+            "size": "Groß"
+        },
+        {
+            "id": 6,
+            "name": "Koi-Karpfen",
+            "months_northern": 0,
+            "months_southern": 0,
+            "time": "16–9 Uhr",
+            "location": "Teich",
+            "size": "Groß"
+        },
+        {
+            "id": 7,
+            "name": "Goldfisch",
+            "months_northern": 0,
+            "months_southern": 0,
+            "time": "Ganztägig",
+            "location": "Teich",
+            "size": "Winzig"
+        },
+        {
+            "id": 8,
+            "name": "Teleskopauge",
+            "months_northern": 0,
+            "months_southern": 0,
+            "time": "9–16 Uhr",
+            "location": "Teich",
+            "size": "Winzig"
+        },
+        {
+            "id": 9,
+            "name": "Ranchu",
+            "months_northern": 0,
+            "months_southern": 0,
+            "time": "9–16 Uhr",
+            "location": "Teich",
+            "size": "Klein"
+        },
+        {
+            "id": 10,
+            "name": "Killifisch",
+            "months_northern": 248,
+            "months_southern": 3587,
+            "time": "Ganztägig",
+            "location": "Teich",
+            "size": "Winzig"
+        },
+        {
+            "id": 11,
+            "name": "Flusskrebs",
+            "months_northern": 504,
+            "months_southern": 3591,
+            "time": "Ganztägig",
+            "location": "Teich",
+            "size": "Klein"
+        },
+        {
+            "id": 12,
+            "name": "Weichschildkröte",
+            "months_northern": 384,
+            "months_southern": 6,
+            "time": "16–9 Uhr",
+            "location": "Fluss",
+            "size": "Mittel"
+        },
+        {
+            "id": 13,
+            "name": "Schnappschildkröte",
+            "months_northern": 1016,
+            "months_southern": 3599,
+            "time": "21–4 Uhr",
+            "location": "Fluss",
+            "size": "Groß"
+        },
+        {
+            "id": 14,
+            "name": "Kaulquappe",
+            "months_northern": 124,
+            "months_southern": 3841,
+            "time": "Ganztägig",
+            "location": "Teich",
+            "size": "Winzig"
+        },
+        {
+            "id": 15,
+            "name": "Frosch",
+            "months_northern": 240,
+            "months_southern": 3075,
+            "time": "Ganztägig",
+            "location": "Teich",
+            "size": "Klein"
+        },
+        {
+            "id": 16,
+            "name": "Flussgrundel",
+            "months_northern": 0,
+            "months_southern": 0,
+            "time": "16–9 Uhr",
+            "location": "Fluss",
+            "size": "Klein"
+        },
+        {
+            "id": 17,
+            "name": "Bachschmerle",
+            "months_northern": 28,
+            "months_southern": 1792,
+            "time": "Ganztägig",
+            "location": "Fluss",
+            "size": "Klein"
+        },
+        {
+            "id": 18,
+            "name": "Katzenwels",
+            "months_northern": 1008,
+            "months_southern": 3087,
+            "time": "16–9 Uhr",
+            "location": "Teich",
+            "size": "Groß"
+        },
+        {
+            "id": 19,
+            "name": "Schlangenkopf",
+            "months_northern": 224,
+            "months_southern": 2051,
+            "time": "9–16 Uhr",
+            "location": "Teich",
+            "size": "Sehr groß"
+        },
+        {
+            "id": 20,
+            "name": "Sonnenbarsch",
+            "months_northern": 0,
+            "months_southern": 0,
+            "time": "9–16 Uhr",
+            "location": "Fluss",
+            "size": "Klein"
+        },
+        {
+            "id": 21,
+            "name": "Flussbarsch",
+            "months_northern": 3591,
+            "months_southern": 504,
+            "time": "Ganztägig",
+            "location": "Fluss",
+            "size": "Mittel"
+        },
+        {
+            "id": 22,
+            "name": "Barsch",
+            "months_northern": 0,
+            "months_southern": 0,
+            "time": "Ganztägig",
+            "location": "Fluss",
+            "size": "Groß"
+        },
+        {
+            "id": 23,
+            "name": "Tilapia",
+            "months_northern": 992,
+            "months_southern": 2063,
+            "time": "Ganztägig",
+            "location": "Fluss",
+            "size": "Mittel"
+        },
+        {
+            "id": 24,
+            "name": "Hecht",
+            "months_northern": 3840,
+            "months_southern": 60,
+            "time": "Ganztägig",
+            "location": "Fluss",
+            "size": "Sehr groß"
+        },
+        {
+            "id": 25,
+            "name": "Stint",
+            "months_northern": 2051,
+            "months_southern": 224,
+            "time": "Ganztägig",
+            "location": "Fluss",
+            "size": "Klein"
+        },
+        {
+            "id": 26,
+            "name": "Ayu",
+            "months_northern": 448,
+            "months_southern": 7,
+            "time": "Ganztägig",
+            "location": "Fluss",
+            "size": "Mittel"
+        },
+        {
+            "id": 27,
+            "name": "Masulachs",
+            "months_northern": 1852,
+            "months_southern": 3868,
+            "time": "Nordhalbkugel:\n16–9 Uhr (Mär.–Jun.), Ganztägig (Sep.–Nov.)\n\nSüdhalbkugel:\nGanztägig (Mär.–Mai), 16–9 Uhr (Sep.–Dez.)",
+            "location": "Fluss (Plateau)",
+            "size": "Mittel"
+        },
+        {
+            "id": 28,
+            "name": "Saibling",
+            "months_northern": 1852,
+            "months_southern": 3868,
+            "time": "Nordhalbkugel:\n16–9 Uhr (Mär.–Jun.), Ganztägig (Sep.–Nov.)\n\nSüdhalbkugel:\nGanztägig (Mär.–Mai), 16–9 Uhr (Sep.–Dez.)",
+            "location": "Fluss (Plateau)",
+            "size": "Mittel"
+        },
+        {
+            "id": 29,
+            "name": "Goldforelle",
+            "months_northern": 1820,
+            "months_southern": 1820,
+            "time": "16–9 Uhr",
+            "location": "Fluss (Plateau)",
+            "size": "Mittel"
+        },
+        {
+            "id": 30,
+            "name": "Huchen",
+            "months_northern": 2055,
+            "months_southern": 480,
+            "time": "16–9 Uhr",
+            "location": "Fluss (Plateau)",
+            "size": "Sehr groß"
+        },
+        {
+            "id": 31,
+            "name": "Lachs",
+            "months_northern": 256,
+            "months_southern": 4,
+            "time": "Ganztägig",
+            "location": "Flussmündung",
+            "size": "Groß"
+        },
+        {
+            "id": 32,
+            "name": "Königslachs",
+            "months_northern": 256,
+            "months_southern": 4,
+            "time": "Ganztägig",
+            "location": "Flussmündung",
+            "size": "Riesig"
+        },
+        {
+            "id": 33,
+            "name": "Wollhandkrabbe",
+            "months_northern": 1792,
+            "months_southern": 28,
+            "time": "16–9 Uhr",
+            "location": "Fluss",
+            "size": "Klein"
+        },
+        {
+            "id": 34,
+            "name": "Guppy",
+            "months_northern": 2040,
+            "months_southern": 3615,
+            "time": "9–16 Uhr",
+            "location": "Fluss",
+            "size": "Winzig"
+        },
+        {
+            "id": 35,
+            "name": "Saugbarbe",
+            "months_northern": 496,
+            "months_southern": 3079,
+            "time": "9–16 Uhr",
+            "location": "Fluss",
+            "size": "Winzig"
+        },
+        {
+            "id": 36,
+            "name": "Skalar",
+            "months_northern": 1008,
+            "months_southern": 3087,
+            "time": "16–9 Uhr",
+            "location": "Fluss",
+            "size": "Klein"
+        },
+        {
+            "id": 37,
+            "name": "Kampffisch",
+            "months_northern": 1008,
+            "months_southern": 3087,
+            "time": "9–16 Uhr",
+            "location": "Fluss",
+            "size": "Klein"
+        },
+        {
+            "id": 38,
+            "name": "Neonsalmler",
+            "months_northern": 2040,
+            "months_southern": 3615,
+            "time": "9–16 Uhr",
+            "location": "Fluss",
+            "size": "Winzig"
+        },
+        {
+            "id": 39,
+            "name": "Regenbogenfisch",
+            "months_northern": 1008,
+            "months_southern": 3087,
+            "time": "9–16 Uhr",
+            "location": "Fluss",
+            "size": "Winzig"
+        },
+        {
+            "id": 40,
+            "name": "Piranha",
+            "months_northern": 480,
+            "months_southern": 2055,
+            "time": "9–16 Uhr, 21–4 Uhr",
+            "location": "Fluss",
+            "size": "Klein"
+        },
+        {
+            "id": 41,
+            "name": "Arowana",
+            "months_northern": 480,
+            "months_southern": 2055,
+            "time": "16–9 Uhr",
+            "location": "Fluss",
+            "size": "Groß"
+        },
+        {
+            "id": 42,
+            "name": "Lachssalmler",
+            "months_northern": 480,
+            "months_southern": 2055,
+            "time": "4–21 Uhr",
+            "location": "Fluss",
+            "size": "Sehr groß"
+        },
+        {
+            "id": 43,
+            "name": "Knochenhecht",
+            "months_northern": 480,
+            "months_southern": 2055,
+            "time": "16–9 Uhr",
+            "location": "Teich",
+            "size": "Riesig"
+        },
+        {
+            "id": 44,
+            "name": "Arapaima",
+            "months_northern": 480,
+            "months_southern": 2055,
+            "time": "16–9 Uhr",
+            "location": "Fluss",
+            "size": "Riesig"
+        },
+        {
+            "id": 45,
+            "name": "Flösselhecht",
+            "months_northern": 480,
+            "months_southern": 2055,
+            "time": "21–4 Uhr",
+            "location": "Fluss",
+            "size": "Groß"
+        },
+        {
+            "id": 46,
+            "name": "Stör",
+            "months_northern": 3847,
+            "months_southern": 508,
+            "time": "Ganztägig",
+            "location": "Flussmündung",
+            "size": "Riesig"
+        },
+        {
+            "id": 47,
+            "name": "See-Engel",
+            "months_northern": 2055,
+            "months_southern": 480,
+            "time": "Ganztägig",
+            "location": "Meer",
+            "size": "Winzig"
+        },
+        {
+            "id": 48,
+            "name": "Seepferdchen",
+            "months_northern": 2040,
+            "months_southern": 3615,
+            "time": "Ganztägig",
+            "location": "Meer",
+            "size": "Winzig"
+        },
+        {
+            "id": 49,
+            "name": "Anemonenfisch",
+            "months_northern": 504,
+            "months_southern": 3591,
+            "time": "Ganztägig",
+            "location": "Meer",
+            "size": "Winzig"
+        },
+        {
+            "id": 50,
+            "name": "Paletten-Doktorfisch",
+            "months_northern": 504,
+            "months_southern": 3591,
+            "time": "Ganztägig",
+            "location": "Meer",
+            "size": "Klein"
+        },
+        {
+            "id": 51,
+            "name": "Falterfisch",
+            "months_northern": 504,
+            "months_southern": 3591,
+            "time": "Ganztägig",
+            "location": "Meer",
+            "size": "Klein"
+        },
+        {
+            "id": 52,
+            "name": "Napoleonfisch",
+            "months_northern": 192,
+            "months_southern": 3,
+            "time": "4–21 Uhr",
+            "location": "Meer",
+            "size": "Riesig"
+        },
+        {
+            "id": 53,
+            "name": "Rotfeuerfisch",
+            "months_northern": 2040,
+            "months_southern": 3615,
+            "time": "Ganztägig",
+            "location": "Meer",
+            "size": "Mittel"
+        },
+        {
+            "id": 54,
+            "name": "Kugelfisch",
+            "months_northern": 3075,
+            "months_southern": 240,
+            "time": "21–4 Uhr",
+            "location": "Meer",
+            "size": "Mittel"
+        },
+        {
+            "id": 55,
+            "name": "Igelfisch",
+            "months_northern": 448,
+            "months_southern": 7,
+            "time": "Ganztägig",
+            "location": "Meer",
+            "size": "Mittel"
+        },
+        {
+            "id": 56,
+            "name": "Sardelle",
+            "months_northern": 0,
+            "months_southern": 0,
+            "time": "4–21 Uhr",
+            "location": "Meer",
+            "size": "Klein"
+        },
+        {
+            "id": 57,
+            "name": "Makrele",
+            "months_northern": 0,
+            "months_southern": 0,
+            "time": "Ganztägig",
+            "location": "Meer",
+            "size": "Klein"
+        },
+        {
+            "id": 58,
+            "name": "Schnabelbarsch",
+            "months_northern": 2044,
+            "months_southern": 3871,
+            "time": "Ganztägig",
+            "location": "Meer",
+            "size": "Mittel"
+        },
+        {
+            "id": 59,
+            "name": "Seebarsch",
+            "months_northern": 0,
+            "months_southern": 0,
+            "time": "Ganztägig",
+            "location": "Meer",
+            "size": "Sehr groß"
+        },
+        {
+            "id": 60,
+            "name": "Kaiserschnapper",
+            "months_northern": 0,
+            "months_southern": 0,
+            "time": "Ganztägig",
+            "location": "Meer",
+            "size": "Groß"
+        },
+        {
+            "id": 61,
+            "name": "Kliesche",
+            "months_northern": 3599,
+            "months_southern": 1016,
+            "time": "Ganztägig",
+            "location": "Meer",
+            "size": "Mittel"
+        },
+        {
+            "id": 62,
+            "name": "Flunder",
+            "months_northern": 0,
+            "months_southern": 0,
+            "time": "Ganztägig",
+            "location": "Meer",
+            "size": "Sehr groß"
+        },
+        {
+            "id": 63,
+            "name": "Kalmar",
+            "months_northern": 2303,
+            "months_southern": 4067,
+            "time": "Ganztägig",
+            "location": "Meer",
+            "size": "Mittel"
+        },
+        {
+            "id": 64,
+            "name": "Muräne",
+            "months_northern": 896,
+            "months_southern": 14,
+            "time": "Ganztägig",
+            "location": "Meer",
+            "size": "Schmal"
+        },
+        {
+            "id": 65,
+            "name": "Nasenmuräne",
+            "months_northern": 992,
+            "months_southern": 2063,
+            "time": "Ganztägig",
+            "location": "Meer",
+            "size": "Schmal"
+        },
+        {
+            "id": 66,
+            "name": "Thunfisch",
+            "months_northern": 3087,
+            "months_southern": 1008,
+            "time": "Ganztägig",
+            "location": "Steg",
+            "size": "Riesig"
+        },
+        {
+            "id": 67,
+            "name": "Marlin",
+            "months_northern": 3535,
+            "months_southern": 1015,
+            "time": "Ganztägig",
+            "location": "Steg",
+            "size": "Riesig"
+        },
+        {
+            "id": 68,
+            "name": "Stachelmakrele",
+            "months_northern": 1008,
+            "months_southern": 3087,
+            "time": "Ganztägig",
+            "location": "Steg",
+            "size": "Sehr groß"
+        },
+        {
+            "id": 69,
+            "name": "Goldmakrele",
+            "months_northern": 1008,
+            "months_southern": 3087,
+            "time": "Ganztägig",
+            "location": "Steg",
+            "size": "Sehr groß"
+        },
+        {
+            "id": 70,
+            "name": "Mondfisch",
+            "months_northern": 448,
+            "months_southern": 7,
+            "time": "4–21 Uhr",
+            "location": "Meer",
+            "size": "Riesig mit Rückenflosse"
+        },
+        {
+            "id": 71,
+            "name": "Rochen",
+            "months_northern": 1920,
+            "months_southern": 30,
+            "time": "4–21 Uhr",
+            "location": "Meer",
+            "size": "Sehr groß"
+        },
+        {
+            "id": 72,
+            "name": "Sägehai",
+            "months_northern": 480,
+            "months_southern": 2055,
+            "time": "16–9 Uhr",
+            "location": "Meer",
+            "size": "Riesig mit Rückenflosse"
+        },
+        {
+            "id": 73,
+            "name": "Hammerhai",
+            "months_northern": 480,
+            "months_southern": 2055,
+            "time": "16–9 Uhr",
+            "location": "Meer",
+            "size": "Riesig mit Rückenflosse"
+        },
+        {
+            "id": 74,
+            "name": "Hai",
+            "months_northern": 480,
+            "months_southern": 2055,
+            "time": "16–9 Uhr",
+            "location": "Meer",
+            "size": "Riesig mit Rückenflosse"
+        },
+        {
+            "id": 75,
+            "name": "Walhai",
+            "months_northern": 480,
+            "months_southern": 2055,
+            "time": "Ganztägig",
+            "location": "Meer",
+            "size": "Riesig mit Rückenflosse"
+        },
+        {
+            "id": 76,
+            "name": "Schiffshalter",
+            "months_northern": 480,
+            "months_southern": 2055,
+            "time": "Ganztägig",
+            "location": "Meer",
+            "size": "Riesig mit Rückenflosse"
+        },
+        {
+            "id": 77,
+            "name": "Anglerfisch",
+            "months_northern": 3079,
+            "months_southern": 496,
+            "time": "16–9 Uhr",
+            "location": "Meer",
+            "size": "Groß"
+        },
+        {
+            "id": 78,
+            "name": "Riemenfisch",
+            "months_northern": 2079,
+            "months_southern": 2016,
+            "time": "Ganztägig",
+            "location": "Meer",
+            "size": "Riesig"
+        },
+        {
+            "id": 79,
+            "name": "Glaskopffisch",
+            "months_northern": 0,
+            "months_southern": 0,
+            "time": "21–4 Uhr",
+            "location": "Meer",
+            "size": "Klein"
+        },
+        {
+            "id": 80,
+            "name": "Quastenflosser",
+            "months_northern": 0,
+            "months_southern": 0,
+            "time": "Ganztägig",
+            "location": "Meer (bei Regen oder Schnee)",
+            "size": "Riesig"
+        }
+    ],
+    "insect": {
+        "bee": {
+            "id": 1,
+            "name": "Bee"
+        }
+    }
+}
