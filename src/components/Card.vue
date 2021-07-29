@@ -1,52 +1,67 @@
 <template>
-    <div class="w-full">
-        <div @click="collapsed = !collapsed">
-            <h3 class="text-center font-bold text-3xl">{{title}}</h3>
-            <div class="text-center">{{collected}}/{{max}}</div>
-        </div>
-        <transition>
-            <div v-if="!collapsed">
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    <div v-for="item in objects" :key="item.id">
-                        <Fish :item=item></Fish>
-                    </div>
-
-                </div>
-            </div>
-        </transition>
+  <div class="w-full">
+    <div @click="toggle()">
+      <h3 class="text-center font-bold text-3xl">{{ title }}</h3>
+      <div class="text-center">{{ collected }}/{{ max }}</div>
     </div>
+    <transition name="fade">
+      <div v-if="!collapsed">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div v-for="item in objects" :key="item.id">
+            <Item :item="item" :type="type"></Item>
+          </div>
+        </div>
+      </div>
+    </transition>
+  </div>
 </template>
 
 <script>
-import axios from 'axios'
-import Fish from "./Fish.vue"
+import axios from "axios";
+import Item from "./Item.vue";
 
 export default {
-  name: 'Card',
+  name: "Card",
   components: {
-      Fish
+    Item,
   },
   props: {
-      title: String,
-      type: String,
+    title: String,
+    type: String,
   },
   data() {
-      return {
-          max: 0,
-          collected: 0,
-          objects: null,
-          collapsed: true
-      }
+    return {
+      max: 0,
+      collected: 0,
+      objects: null,
+      collapsed: true,
+    };
   },
   async created() {
-      const fish = await axios.get(process.env.VUE_APP_API_HOST + "/" + this.type)
-      this.max = Object.keys(fish.data).length
-      this.objects = fish.data
+    const items = await axios.get(
+      process.env.VUE_APP_API_HOST + "/" + this.type
+    );
+    this.max = Object.keys(items.data).length;
+    this.objects = items.data;
   },
   methods: {
-      sayHi(text) {
-          console.log(text)
-      },
+    sayHi(text) {
+      console.log(text);
+    },
+    toggle() {
+        this.collapsed = !this.collapsed;
+        this.$emit("click-card", this.collapsed)
+    }
   },
-}
+  emits: ["click-card"]
+};
 </script>
+
+<style scoped>
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+</style>

@@ -726,5 +726,11 @@
             "id": 1,
             "name": "Bee"
         }
+    },
+    "deep-sea": {
+        "bee": {
+            "id": 1,
+            "name": "Bee"
+        }
     }
 }
