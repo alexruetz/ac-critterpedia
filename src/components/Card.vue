@@ -2,7 +2,6 @@
   <div class="w-full">
     <div @click="toggle()">
       <h3 class="text-center font-bold text-3xl">{{ title }}</h3>
-      {{store.actions.getCheckedCount(type)}}
       <div class="text-center">{{ store.actions.getCheckedCount(type) }}/{{ max }}</div>
     </div>
     <transition name="fade">
