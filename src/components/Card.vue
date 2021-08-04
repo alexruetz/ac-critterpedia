@@ -2,11 +2,12 @@
   <div class="w-full">
     <div @click="toggle()">
       <h3 class="text-center font-bold text-3xl">{{ title }}</h3>
-      <div class="text-center">{{ collected }}/{{ max }}</div>
+      {{store.actions.getCheckedCount(type)}}
+      <div class="text-center">{{ store.actions.getCheckedCount(type) }}/{{ max }}</div>
     </div>
     <transition name="fade">
       <div v-if="!collapsed">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
           <div v-for="item in objects" :key="item.id">
             <Item :item="item" :type="type"></Item>
           </div>
@@ -22,6 +23,7 @@ import Item from "./Item.vue";
 
 export default {
   name: "Card",
+  inject: {store: "store"},
   components: {
     Item,
   },
@@ -45,9 +47,6 @@ export default {
     this.objects = items.data;
   },
   methods: {
-    sayHi(text) {
-      console.log(text);
-    },
     toggle() {
         this.collapsed = !this.collapsed;
         this.$emit("click-card", this.collapsed)

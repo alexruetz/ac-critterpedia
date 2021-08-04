@@ -3,6 +3,9 @@
     <div>
       <Hemisphere/>
     </div>
+    <div>
+        <available-toggle></available-toggle>
+    </div>
     <div class="grid grid-cols-1 gap-y-20" v-bind:class="{'md:grid-cols-2': !  cardSelected}">
       <transition>
         <div v-if="showFish">
@@ -26,12 +29,14 @@
 <script>
 import Card from './components/Card.vue'
 import Hemisphere from './components/Hemisphere.vue'
+import AvailableToggle from './components/AvailableToggle.vue'
 
 export default {
   name: 'App',
   components: {
     Card,
     Hemisphere,
+    AvailableToggle,
   },
   data() {
     return {

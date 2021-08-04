@@ -1,5 +1,5 @@
 <template>
-  <div>{{this.store.state.hemisphere}}
+  <div>
     <multi-button
       :values="this.getValues()"
       :initialValue="this.store.state.hemisphere"
