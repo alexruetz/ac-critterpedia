@@ -2,7 +2,9 @@
   <div class="w-full">
     <div @click="toggle()">
       <h3 class="text-center font-bold text-3xl">{{ title }}</h3>
-      <div class="text-center">{{ store.actions.getCheckedCount(type) }}/{{ max }}</div>
+      <div class="text-center">
+        {{ store.actions.getCheckedCount(type) }}/{{ max }}
+      </div>
     </div>
     <transition name="fade">
       <div v-if="!collapsed">
@@ -22,7 +24,7 @@ import Item from "./Item.vue";
 
 export default {
   name: "Card",
-  inject: {store: "store"},
+  inject: { store: "store" },
   components: {
     Item,
   },
@@ -39,25 +41,32 @@ export default {
     };
   },
   async created() {
-    const items = await axios.get(
-      process.env.VUE_APP_API_HOST + "/" + this.type
-    );
+    var api_host = process.env.VUE_APP_API_HOST;
+    var url = "";
+    if (api_host) {
+      url = api_host + "/" + this.type;
+    } else {
+      url = "/json/" + this.type;
+    }
+    console.log("URL: " + url);
+    const items = await axios.get(url);
     this.max = Object.keys(items.data).length;
     this.objects = items.data;
   },
   methods: {
     toggle() {
-        this.collapsed = !this.collapsed;
-        this.$emit("click-card", this.collapsed)
-    }
+      this.collapsed = !this.collapsed;
+      this.$emit("click-card", this.collapsed);
+    },
   },
-  emits: ["click-card"]
+  emits: ["click-card"],
 };
 </script>
 
 <style scoped>
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .5s;
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
