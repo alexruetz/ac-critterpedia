@@ -46,7 +46,7 @@ export default {
     if (api_host) {
       url = api_host + "/" + this.type;
     } else {
-      url = process.env. "/ac-critterpedia/json/" + this.type + ".json";
+      url = "/ac-critterpedia/json/" + this.type + ".json";
     }
     console.log("URL: " + url);
     const items = await axios.get(url);
